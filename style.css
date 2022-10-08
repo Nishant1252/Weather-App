@@ -13,7 +13,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Montserrat Alternates',sans-serif;
 }
 
 .card {
@@ -43,7 +43,7 @@ body {
 }
 
 .search input::placeholder, .search input{
-  font-family: 'Montserrat';
+  font-family: 'Montserrat Alternates';
 }
 
 .city {
@@ -57,21 +57,21 @@ body {
 .coordinates {
   font-size: 1em;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .main {
   font-size: 45px;
   font-weight: bold;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .description {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .weather-icon {
@@ -89,13 +89,13 @@ body {
 .othertemp {
   font-size: 1em;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .alts {
   font-size: 1em;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 button {
