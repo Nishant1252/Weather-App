@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+html{
+  overflow: hidden;
+}
 body {
   display: flex;
   justify-content: center;
@@ -14,6 +16,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Montserrat Alternates',sans-serif;
+  overflow: hidden;
 }
 
 .card {
@@ -42,10 +45,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  /* width:50%; */
 }
 
 .search input::placeholder, .search input{
   font-family: 'Montserrat Alternates';
+}
+
+.search-bar{
+  /* width:1em; */
 }
 
 .city {
@@ -117,5 +125,29 @@ input.search-bar {
   border-radius: 18px;
   background: #7c7c7c2b;
   color: #fff;
-  font-size: 120%;
+  font-size: 100%;
+}
+ 
+@media(max-width:500px){
+  .card{
+    width:70vw;
+    height:75%;
+  }
+  .search-bar{
+    width:75%;
+  }
+  input.search-bar {
+    font-size: 90%;
+  }
+  button{
+    width:20%;
+    height:20%;
+    aspect-ratio: 1/1;
+  }
+  .city{
+    font-size: 25px;
+  }
+  .feelslike , .pressure {
+    font-size: 3.8vw;
+  }
 }
